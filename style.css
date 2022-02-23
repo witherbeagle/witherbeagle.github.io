@@ -1,4 +1,7 @@
-h1 {
-    color: red
+p {
+  font-style:    outline-style: double;
 }
-<style>
+/* This is a backround  */
+body{
+  background-image: url('./img/backround.png')
+}
