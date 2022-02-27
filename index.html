@@ -8,10 +8,28 @@
   <body>
     <div class="wrapper">
       <p>This site is a WIP </p>
-        <p> It will show all of my socials when it is done </p>
-        <p> for now no buttons work as there is no hitbox lol </p>
-
+        <p> this text will be gone when it is complete </p>
     </div>
-
+    <div>
+      <input onclick="youtube()" type="image" class="button" id="youtube" src="./img/youtube.png" width="150">
+      <input onclick="discord()" type="image" class="button" id="discord" src="./img/discord.png" width="150">
+      <input onclick="twitter()" type="image" class="button" id="twitter" src="./img/twitter.png" width="150">
+      <input onclick="twitch()" type="image" class="button" id="twitch" src="./img/twitch.png" width="150">
+    </div>
+    <script>
+      function youtube() {
+        location.href="https://www.youtube.com/channel/UCF6x7FsIWyuYTas1e3qc4UA"
+      }
+      function twitter() {
+        location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      }
+      function twitch() {
+        location.href="https://www.twitch.tv/witherbeagle"
+      }
+      function discord() {
+        navigator.clipboard.writeText("witherbeagle#7910");
+        alert("Copied discord username to clipboard")
+      }
+    </script>
   </body>
 </html>
