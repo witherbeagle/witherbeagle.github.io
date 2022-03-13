@@ -5,3 +5,27 @@ p {
 body{
   background-image: url('./img/backround.png')
 }
+.container
+{
+  display: grid;
+  grid-template-columns:3fr 1fr 3fr;
+justify-content:center;
+}
+.youtube {
+  grid-column-start: 2;
+}
+.discord {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+.twitch {
+  grid-column-start: 2;
+  grid-row-start-3;
+}
+.rick {
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
+.header {
+  grid-row: span 2;
+}
