@@ -1,0 +1,16 @@
+body{
+    background-image: url('./img/backround.png')
+  }
+  .wc {
+      background-color: #055222;
+      padding: 20px;
+  }
+  p {
+      color:white;
+  }
+  .wrapper {
+      display: grid;
+  }
+a {
+    color:white;
+}

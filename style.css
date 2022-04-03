@@ -1,6 +1,66 @@
-p {
-  font-style:    outline-style: double;
+.wrapper {
+  display: grid;
+  grid-template-rows: 50px;
+  grid-gap: 20px;
 }
+
+.navBar {
+  grid-row-start: 1;
+  grid-column: span 3;
+  background-color: #4B6946;
+}
+
+.nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+}
+
+.nav a {
+  display: block;
+  padding-left: 9em;
+  padding-right: 9em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  transition: background-color .25s ease-out 0s;
+}
+
+.nav a:hover {
+  background-color: #055222;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.container {
+  grid-row-start: 2;
+  grid-column: span 3;
+}
+
+p {
+  font-style: normal;
+  outline-style: double;
+}
+
+@font-face {
+  font-family: MinecraftNonThicc;
+  src: url('MinecraftRegular-Bmg3.otf');
+}
+@font-face {
+  font-family: MinecraftThiccBoi;
+  src: url('MinecraftTen-VGORe.ttf');
+}
+
+h1 {
+  font-family: MinecraftThiccBoi;
+}
+
 /* This is a backround  */
 body{
   background-image: url('./img/backround.png')
@@ -20,7 +80,7 @@ justify-content:center;
 }
 .twitch {
   grid-column-start: 2;
-  grid-row-start-3;
+  grid-row-start: 3;
 }
 .rick {
   grid-column-start: 2;
@@ -29,3 +89,4 @@ justify-content:center;
 .header {
   grid-row: span 2;
 }
+
